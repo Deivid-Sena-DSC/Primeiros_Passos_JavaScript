@@ -1,1 +1,1 @@
-document.getElementById("texto_1").innerHTML="Meu primeiro texto JavaScript";
+document.getElementById("texto_1").innerHTML = "Meu primeiro texto JavaScript";
