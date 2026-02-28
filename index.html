@@ -4,13 +4,16 @@
         <meta charset="utf-8">
         <title>INTRODUÇÃO</title>
     </head>
-    <body>
+    <body style="text-align: center; font-family: Arial, sans-serif;">
         <h1>
             Este é o HTML Correto
         </h1>
 
-        <p id="numero_1"></p>
-        <p id="numero_2"></p>
+        <form id="meuForm">
+            <input type="number" id="numero_1" placeholder="Digite o primeiro número"/><br>
+            <input type="number" id="numero_2" placeholder="Digite o segundo número"/><br>
+            <button type="submit">Enviar</button>
+        </form>    
         <p id="soma"></p>
         <p id="subtracao"></p>
         <p id="mult"></p>
@@ -20,22 +23,16 @@
         <p id="maior_igual"></p>
         <p id="menor_igual"></p>
         <p id="igual"></p>
-            
 
-        <script src="script.js">
-            //Primeiros comandos
-            //console.log('HELLO WORLD')
+        <form id="meuForm2">
+            <input type="text" id="nome" placeholder="Digite seu nome"/><br>
+            <input type="text" id="email" placeholder="Digite seu email"/><br>
+        <button type="submit" id="submit_2">Enviar</button>
+        <h2 id="nome_result"></h2>
+        <h2 id="email_result"></h2>
+        </form>    
 
+        <script src="script.js"></script>
 
-            //Primeiras funções
-            //function funcao_soma(argumento_1, argumento_2){
-            //    return argumento_1 + argumento_2;}
-            //console.log(funcao_soma(Number(prompt('Digite um valor')), Number(prompt('Digite outro valor'))));
-
-            //function deixar_maiusculo(texto){
-            //    return texto.toUpperCase()}
-            //window.alert(deixar_maiusculo(String(prompt('Digite o texto que deseja deixar em maiusculo'))));
-
-        </script>
     </body>
 </html>
