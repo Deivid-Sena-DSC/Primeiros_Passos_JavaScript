@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <title>DESAFIO 1</title>
+    </head>
+    <body style="text-align: center; font-family: Arial, sans-serif;">
+    
+        <h1>
+            ESTÁ É UMA CALCULADORA SIMPLES, DIGITE DOIS NÚMEROS E ESCOLHA A OPERAÇÃO QUE DESEJA REALIZAR. APÓS ISSO, DIGITE SEU NOME E SEU EMAIL PARA VER O RESULTADO.
+        </h1>
+        <p>1. SOMA</p>
+        <p>2. SUBTRAÇÃO</p>
+        <p>3. MULTIPLICAÇÃO</p>
+        <p>4. DIVISÃO</p>
+        <p>5. RESTO DA DIVISÃO</p>
+        <p>6. POTÊNCIA</p>
+        <form id="meuForm">
+            <input type="number" style="width: 500px; padding: 1rem; margin: 0 auto; border: 1px solid #ccc;" id="numero_1" placeholder="Digite o primeiro número"/><br><br>
+            <input type="number" style="width: 500px; padding: 1rem; margin: 0 auto; border: 1px solid #ccc;" id="numero_2" placeholder="Digite o segundo número"/><br><br>
+            <input type="number" style="width: 500px; padding: 1rem; margin: 0 auto; border: 1px solid #ccc;" id="operacao" placeholder="Digite o número da operação desejada"/><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+        <h1 id="resultado"></h1>
+
+        <script src="desafio_1.js"></script>
+    </body>
+</html>
